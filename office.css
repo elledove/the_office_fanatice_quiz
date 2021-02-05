@@ -18,5 +18,33 @@ h1{
    }
 
    body{
-       background-color: aquamarine;
+       background-color: black;
+       padding: 0;
+       margin: 0;
+       display: flex;
+       justify-content: center;
+       width:100vw;
+       height: 100vh;
+       align-items: center;
+   }
+
+
+   .container{
+       width: 800px;
+       max-width:90%;
+       border-radius: 10px;
+       padding: 10px;
+       background-color: azure;
+
+   }
+
+   .btn-grid{
+    display: grid;
+    /*  this will make the buttons go from stacked on top off on another to in columns of two */
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+
+
+
    }
