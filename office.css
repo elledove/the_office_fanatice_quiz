@@ -59,3 +59,14 @@ h1{
    .hide{
        display: none;
    }
+
+   #start-btn{
+       
+    
+
+   }
+   .controls{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
