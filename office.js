@@ -26,4 +26,7 @@ startGame()
 
 function startGame() {
    startButton.classList.add("hide");
+   questionContainer.classList.remove("hide");
+
+
 }
