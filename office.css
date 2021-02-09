@@ -56,6 +56,7 @@ h1{
     margin: 20px 0;
    }
 
+   /*  this class will be used to manipulate divs from being visible to not being visible. */
    .hide{
        display: none;
    }
