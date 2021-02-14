@@ -5,10 +5,13 @@ const startButton = document.getElementById('start-btn');
 const nextButton = document.getElementById('next-btn');
 //The Array.from will turn my HTML collection of buttons into an array that I can iterate over and add the answers
 const choices = Array.from(document.getElementsByClassName("answer-btn"));
+const playSoundBtn = document.getElementById('sound-btn');
+const soundz = document.getElementById('soundz');
 
 
 
 
+playSoundBtn.addEventListener('click',() => {soundz.play()})
 // document.addEventListener("DOMContentLoaded", ()=>
 // {
 //     console.log("Autobots! Lets Ride!!!!!!")
